@@ -1,0 +1,28 @@
+{
+  "name": "cucumber-try-to-be-cool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:progress": "cucumber-js --format progress",
+    "test:summary": "cucumber-js --format summary",
+    "test:junit": "cucumber-js --format junit:reports/cucumber-report.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daise-praytell/cucumber-try-to-be-cool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/daise-praytell/cucumber-try-to-be-cool/issues"
+  },
+  "homepage": "https://github.com/daise-praytell/cucumber-try-to-be-cool#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "axios": "^1.13.6"
+  }
+}
