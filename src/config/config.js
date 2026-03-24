@@ -5,5 +5,8 @@ module.exports = {
     headers: { 'Content-Type': 'application/json' },
 
     // register api
-    registerEndpoint: '/register'
+    registerEndpoint: '/register',
+
+    // user api
+    userEndpoint: '/users/'
 };
