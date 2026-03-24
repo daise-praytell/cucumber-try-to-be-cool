@@ -1,12 +1,11 @@
 const config = require('../config/config');
-const { getApi, getHeaders } = require('../../steps/common.steps');
 
-async function registerUser(credentials) {
+async function registerUser(api, credentials, headers) {
     try {
-        return await getApi().post(
+        return await api.post(
             config.registerEndpoint,
             credentials,
-            { headers: getHeaders() }
+            { headers: headers }
         );
     } catch (error) {
         if (error.response) {

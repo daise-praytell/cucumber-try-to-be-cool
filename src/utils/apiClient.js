@@ -1,4 +1,3 @@
-// require('dotenv').config();
 const config = require('../config/config')
 const axios = require('axios');
 
@@ -7,7 +6,7 @@ function createApiClient() {
                     baseURL: config.baseURL,
                     headers: {
                         // [process.env.API_KEY]: process.env.API_KEY_VALUE,
-                        ...config.header
+                        ...config.headers
                     }, 
                     timeout: config.timeout 
                 });
