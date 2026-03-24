@@ -23,6 +23,7 @@
   "homepage": "https://github.com/daise-praytell/cucumber-try-to-be-cool#readme",
   "dependencies": {
     "@cucumber/cucumber": "^12.7.0",
-    "axios": "^1.13.6"
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1"
   }
 }
